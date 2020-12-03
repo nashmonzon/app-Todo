@@ -1,0 +1,12 @@
+import React, {useState} from "react";  
+import TodoForm from "./TodoForm";
+
+function TodoList(){
+    
+    return(
+    <div>
+        <h1>Q haremos hoy</h1>
+        <TodoForm/>
+    </div>)
+} 
+export default TodoList;
